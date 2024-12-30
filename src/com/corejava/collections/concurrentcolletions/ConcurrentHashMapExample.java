@@ -1,4 +1,4 @@
-package com.corejava.Collections.ConCurrentColletions;
+package com.corejava.collections.concurrentcolletions;
 
 import java.io.IOException;
 import java.util.concurrent.ConcurrentHashMap;

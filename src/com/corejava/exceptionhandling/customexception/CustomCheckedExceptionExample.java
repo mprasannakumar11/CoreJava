@@ -1,4 +1,4 @@
-package com.corejava.exceptionhandling.customException;
+package com.corejava.exceptionhandling.customexception;
 
 import java.io.IOException;
 

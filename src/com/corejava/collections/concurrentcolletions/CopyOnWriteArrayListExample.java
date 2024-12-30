@@ -1,4 +1,4 @@
-package com.corejava.Collections.ConCurrentColletions;
+package com.corejava.collections.concurrentcolletions;
 
 import java.util.List;
 import java.util.concurrent.CopyOnWriteArrayList;

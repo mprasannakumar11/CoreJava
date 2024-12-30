@@ -1,4 +1,4 @@
-package com.corejava.Collections;
+package com.corejava.collections;
 
 import java.io.IOException;
 import java.util.ArrayDeque;

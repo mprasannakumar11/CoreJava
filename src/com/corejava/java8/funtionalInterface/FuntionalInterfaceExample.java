@@ -1,4 +1,4 @@
-package com.corejava.java8.FuntionalInterface;
+package com.corejava.java8.funtionalInterface;
 
 
 public class FuntionalInterfaceExample {
