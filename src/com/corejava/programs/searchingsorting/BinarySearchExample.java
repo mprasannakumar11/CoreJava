@@ -1,4 +1,4 @@
-package com.corejava.programs;
+package com.corejava.programs.searchingsorting;
 
 public class BinarySearchExample {
     public static void main(String[] args) {

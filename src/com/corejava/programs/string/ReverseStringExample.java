@@ -1,4 +1,4 @@
-package com.corejava.programs;
+package com.corejava.programs.string;
 
 public class ReverseStringExample {
     public static void main(String[] args) {
