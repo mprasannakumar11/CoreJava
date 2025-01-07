@@ -10,8 +10,8 @@ public class ListInterfaceExample {
         // A resizable array implementation of the List interface. It provides fast random access to elements.
         // Data Structure: Dynamic Array
         // Access time: O(1)
-        //Insertion/Deletion: O(n)
-        //Memory Usage: Less memory overhead
+        // Insertion/Deletion: O(n)
+        // Memory Usage: Less memory overhead
 
         List<String> listNames = new ArrayList<>();
 
@@ -33,8 +33,8 @@ public class ListInterfaceExample {
 
         // Data Structure: doubly-linked list
         // Access time: O(n)
-        //Insertion/Deletion: O(1)
-        //Memory Usage: More memory overhead
+        // Insertion/Deletion: O(1)
+        // Memory Usage: More memory overhead
 
         List<String> linkeListNames = new LinkedList<>();
 
