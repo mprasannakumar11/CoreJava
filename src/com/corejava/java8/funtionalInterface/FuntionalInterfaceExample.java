@@ -1,5 +1,9 @@
 package com.corejava.java8.funtionalInterface;
 
+@FunctionalInterface
+interface FuntionalInterface {
+    void run();
+}
 
 public class FuntionalInterfaceExample {
 

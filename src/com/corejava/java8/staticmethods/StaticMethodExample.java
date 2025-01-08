@@ -1,5 +1,14 @@
 package com.corejava.java8.staticmethods;
 
+// static interface
+interface StatisMethodInterface {
+
+    static void run() {
+        System.out.println("this is the static method in Interface");
+    }
+}
+
+// implements without run() method
 public class StaticMethodExample implements StatisMethodInterface {
 
     void work() {
@@ -7,6 +16,7 @@ public class StaticMethodExample implements StatisMethodInterface {
     }
 }
 
+// Client Code
 class Main {
     public static void main(String[] args) {
         StaticMethodExample staticMethodExample = new StaticMethodExample();
