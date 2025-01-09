@@ -1,4 +1,4 @@
-package com.corejava.exceptionhandling;
+package com.corejava.oops.exceptionhandling;
 
 import java.io.FileInputStream;
 import java.io.IOException;

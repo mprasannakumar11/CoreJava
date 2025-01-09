@@ -1,4 +1,4 @@
-package com.corejava.innerclasses;
+package com.corejava.oops.innerclasses;
 
 //A non-static class that is created inside a class but outside a method is called member inner class.
 // It is also known as a regular inner class. It can be declared with access modifiers like public, default, private, and protected.

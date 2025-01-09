@@ -1,4 +1,4 @@
-package com.corejava.innerclasses;
+package com.corejava.oops.innerclasses;
 
 abstract class Person {
     abstract void eat();

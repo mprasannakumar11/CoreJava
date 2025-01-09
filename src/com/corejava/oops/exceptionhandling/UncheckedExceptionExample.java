@@ -1,4 +1,4 @@
-package com.corejava.exceptionhandling;
+package com.corejava.oops.exceptionhandling;
 
 public class UncheckedExceptionExample {
 

@@ -1,4 +1,4 @@
-package com.corejava.innerclasses;
+package com.corejava.oops.innerclasses;
 
 //The nested interface must be public if it is declared inside the interface, but it can have any access modifier if declared within the class.
 //Nested interfaces are declared static

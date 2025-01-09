@@ -1,4 +1,4 @@
-package com.corejava.exceptionhandling.customexception;
+package com.corejava.oops.exceptionhandling.customexception;
 
 public class CustomUnCheckedException extends RuntimeException {
 

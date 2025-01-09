@@ -1,4 +1,4 @@
-package com.corejava.innerclasses;
+package com.corejava.oops.innerclasses;
 
 public class localInnerClass {
     private int data = 30;//instance variable

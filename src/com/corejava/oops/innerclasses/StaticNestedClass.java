@@ -1,4 +1,4 @@
-package com.corejava.innerclasses;
+package com.corejava.oops.innerclasses;
 
 //A static class is a class that is created inside a class, is called a static nested class in Java. It cannot access non-static data members and methods. It can be accessed by outer class name.
 //
