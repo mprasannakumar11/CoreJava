@@ -1,0 +1,37 @@
+MultiThreading vs MultiProcessing vs MultiProgramming vs MultiTasking?
+Life cycle of a Thread
+Extends vs Runnable
+yield() vs sleep() vs join() ?
+wait() vs sleep() ?
+why is join() method used?
+Can we Override start() method in Thread?
+Can we Override run() method?
+Can we start the thread twice?
+What is IllegalThreadStateException?
+What happens if run() method is called without start()?
+Why do we use ThreadPool?
+What is Race Condition?
+What is Synchronisation?Types of Synchronisation?
+Object Level Locking vs Class Level Locking?
+
+If there is 2 synchronised methods m1 and m2 in a class, can 2 different threads t1 and t2 call different methods(m1,m2) respectively on same object of class c at same time ?
+Answer — No. Only 1 Thread can hold the lock on a object of a class.However the other non synchronised methods can be called on same object.
+
+If a class has a synchronised method and non synchronised method, can multiple threads execute non synchronised methods?
+Answer: yes. If a class has a synchronised method and non synchronised method , multiple threads can access non synchronised methods.
+
+Can 2 threads call 2 different static synchronised methods of same class?
+Answer : The static synchronised methods of same class always block each other as 1 lock per class exists. So no 2 static synchronised methods can execute at the same time.
+
+Does static synchronised methods block a non synchronised methods?
+Answer: No. The thread executing static synchronised method holds a lock on the class and the executing the non static synchronised method holds lock on the object on which the method has been called, these 2 locks are different and these threads dont block eachother.
+
+Can Constructors be synchronised?
+What is DeadLock?
+What is Inter thread communication?Explain wait(),notify() and notifyall()?
+What is IllegalMonitorStateException?
+Which class does wait(),notify() and notifyall() method belong?
+Explain few Thread class methods?is Sleep() a method in Thread class or Object class?
+Producer Consumer Problem in Java?
+Volatile vs Synchronised?
+What are Atomic variables?

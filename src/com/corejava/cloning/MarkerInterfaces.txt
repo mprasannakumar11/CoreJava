@@ -1,0 +1,19 @@
+Examples of Marker Interfaces
+Serializable:
+Classes implementing this interface can be serialized and deserialized.
+
+Cloneable:
+Classes implementing this interface can be cloned using the clone() method.
+
+Remote:
+Classes implementing this interface can be used in remote method invocation (RMI).
+
+Purpose and Benefits of Marker Interfaces
+Type Safety:
+Marker interfaces provide a way to indicate that a class supports a specific capability, ensuring type safety during runtime checks.
+
+Metadata Provision:
+They act as metadata that can be checked using the instanceof operator or reflection to determine whether a class supports a particular behavior.
+
+Design Flexibility:
+Marker interfaces can be used to group related classes and provide a clear and concise way to signal certain capabilities or behaviors.

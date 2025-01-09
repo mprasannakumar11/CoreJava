@@ -1,0 +1,9 @@
+Interface8 changes
+What is Functional Interface? why do we need it?
+Difference between Collection and Stream
+What is Terminal Operator vs Intermediate operators?
+What is Optional?
+Flatmap vs Map?
+Difference between Parallel sort vs sort
+Difference between Predicate vs BiPredicate?
+How Diamond problem is solved in Java8?

@@ -1,0 +1,4 @@
+Why is wrapper class required?
+Methods of Object class?
+Does java gives importance to primitive data types?
+Is Java pass by value or pass by reference?

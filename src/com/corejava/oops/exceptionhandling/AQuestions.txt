@@ -1,0 +1,12 @@
+Difference between Error and Exception?
+Checked vs Unchecked Exception?
+Create custom Exception?
+What is Runtime exception ?
+How does JVM handle Exception?
+Difference between Final, Finalise and Finally?
+Super class of all exceptions?
+Is throwable an interface?
+When Finally block doesn’t get executed?
+Can subclass throw higher checked exception than base class?
+Can we throw an unchecked exception in child class if parent class doesn’t throw any exception?
+Difference between throw and throws()

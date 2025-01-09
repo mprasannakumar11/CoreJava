@@ -1,0 +1,6 @@
+What is Serialisation and Deserialisation?
+Use of transient keyword?
+Is it possible to serialise a class if its super class is not serialisable ?Can the class be still serialised and deserialised?
+Answer: yes provided that non-serialisable super class has no args constructor which is involved at deserialisation to initialise the super class.
+
+4. Can Uninitialised non serialised , non transient fields still be tolerated?Answer: yes

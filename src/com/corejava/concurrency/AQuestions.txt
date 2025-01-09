@@ -1,0 +1,22 @@
+runnable vs callable ?
+both Runnable and Callable are interfaces that represent tasks to be executed by a thread or an executor,
+but they have some key differences in their design and usage. Here's a detailed comparison:
+
+Feature	                        Runnable	                                        Callable
+Method	                        run()	                                            call()
+Return Type	                    void	                                            Generic type V
+Exception Handling	            Cannot throw checked exceptions	                    Can throw checked exceptions
+Result Handling	                No result	                                        Returns a result
+Usage	                        Use when no result or exception handling is needed	Use when you need to return a result or handle exceptions
+Introduced in	                Java 1.0	                                        Java 5 (part of java.util.concurrent)
+
+What is Future Object?
+What is CompletableFuture?
+Use of Done() , IsCancelled() and Cancel() method of Future Object?
+Explain ThreadLocal class
+What is CountDownLatch?
+What is CyclicBarrier?
+What is ReEntrant lock?
+ExecutorService.submit() vs Executor.execute()?
+Different types of ThreadExecutor Services?
+Explain how FixedThreadPool executor works?

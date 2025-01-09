@@ -1,0 +1,7 @@
+Types of oops
+Composition vs Aggregation vs Association?
+Function overloading vs overriding
+Difference between Abstract class and Interface?
+Can private method or static methods be overridden in Java?
+Can main() method be overloaded?
+Can Abstract class have main method?

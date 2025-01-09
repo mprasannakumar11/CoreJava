@@ -1,0 +1,6 @@
+Why are strings immutable in java?
+How intern() works?
+How many objects are created in Strings using string literals and new operator?
+How string constant pool works?
+Difference between equals and == operator?
+Difference between string , string buffer and string builder.

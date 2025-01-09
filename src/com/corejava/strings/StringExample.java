@@ -6,9 +6,9 @@ import java.util.StringTokenizer;
 public class StringExample {
     public static void main(String[] args) {
         // Using String class
-        String str1 = "Hello";
-        String str2 = new String("World");
-        String str3 = "Hello";
+        String str1 = "Hello";  //String literal created in the string pool
+        String str2 = new String("World"); // Creates a new object in the heap
+        String str3 = "Hello"; // Points to the same object as str1 in the string pool
 
         // String concatenation
         String str4 = str1 + " " + str2 + "!";
