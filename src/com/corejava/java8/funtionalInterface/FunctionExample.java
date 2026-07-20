@@ -41,65 +41,8 @@ public class FunctionExample {
 
     public static void main(String[] args) {
 
-        /*
-         * ========================================================
-         * FUNCTION OBJECT
-         * ========================================================
-         *
-         * Input:
-         * Product price
-         *
-         * Output:
-         * Price after 10% discount
-         */
+        Function<String, Integer> length = str -> str.length();
 
-        Function<Double, Double> applyDiscount =
-                price -> price - (price * 0.10);
-
-
-
-        /*
-         * ========================================================
-         * PRODUCT 1
-         * ========================================================
-         */
-
-        Double laptopPrice = 50000.0;
-
-        Double finalLaptopPrice =
-                applyDiscount.apply(laptopPrice);
-
-        System.out.println(
-                "Laptop Original Price: "
-                        + laptopPrice
-        );
-
-        System.out.println(
-                "Laptop Final Price: "
-                        + finalLaptopPrice
-        );
-
-
-
-        /*
-         * ========================================================
-         * PRODUCT 2
-         * ========================================================
-         */
-
-        Double mobilePrice = 20000.0;
-
-        Double finalMobilePrice =
-                applyDiscount.apply(mobilePrice);
-
-        System.out.println(
-                "\nMobile Original Price: "
-                        + mobilePrice
-        );
-
-        System.out.println(
-                "Mobile Final Price: "
-                        + finalMobilePrice
-        );
+        System.out.println(length.apply("Spring"));
     }
 }

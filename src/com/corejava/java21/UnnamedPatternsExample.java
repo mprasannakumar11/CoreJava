@@ -99,9 +99,9 @@ public class UnnamedPatternsExample {
          * -> customerName
          */
 
-        if (payment instanceof Payment(_, _, double amount)) {
+       /* if (payment instanceof Payment(_, _, double amount)) {
 
             System.out.println("Payment Amount : " + amount);
-        }
+        }*/
     }
 }

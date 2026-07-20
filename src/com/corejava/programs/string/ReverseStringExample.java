@@ -1,5 +1,8 @@
 package com.corejava.programs.string;
 
+import java.util.stream.Collectors;
+import java.util.stream.IntStream;
+
 public class ReverseStringExample {
     public static void main(String[] args) {
 
@@ -29,6 +32,15 @@ public class ReverseStringExample {
             return str;
         }
         return reverseUsingRecursion(str.substring(1)) + str.charAt(0);
+    }
+
+
+
+    public static String reverseUsingStreams(String str) {
+
+        return IntStream.range(0, str.length())
+                .mapToObj(i -> String.valueOf(str.charAt(str.length() - 1 - i)))
+                .collect(Collectors.joining());
     }
 
 }

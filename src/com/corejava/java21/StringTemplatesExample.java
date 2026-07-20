@@ -82,7 +82,6 @@ package com.corejava.java21;
  * ============================================================
  */
 
-import static java.lang.StringTemplate.STR;
 
 
 /*
@@ -137,15 +136,15 @@ public class StringTemplatesExample {
          * Java evaluates expression automatically.
          */
 
-        String newMessage = STR."""
+/*        String newMessage = STR."""
                 Payment received from \{customerName}
                 using \{paymentMethod}
                 for amount Rs.\{amount}
-                """;
+                """;*/
 
 
         System.out.println("\nString Template");
 
-        System.out.println(newMessage);
+        //System.out.println(newMessage);
     }
 }

@@ -57,70 +57,9 @@ public class PredicateExample {
 
     public static void main(String[] args) {
 
-        /*
-         * ========================================================
-         * PAYMENT VALIDATION RULE
-         * ========================================================
-         *
-         * Condition:
-         * --------------------------------
-         * Payment amount must be greater
-         * than or equal to 100.
-         *
-         * Input Type:
-         * Double
-         *
-         * Return:
-         * true / false
-         */
+        Predicate<Integer> isEven = number -> number % 2 == 0;
 
-        Predicate<Double> isValidPayment =
-                amount -> amount >= 100;
-
-
-
-        /*
-         * ========================================================
-         * PAYMENT 1
-         * ========================================================
-         */
-
-        Double payment1 = 500.0;
-
-        /*
-         * test()
-         * -------------------------
-         * Evaluates condition.
-         */
-
-        System.out.println(
-                "Payment Amount: "
-                        + payment1
-        );
-
-        System.out.println(
-                "Valid Payment: "
-                        + isValidPayment.test(payment1)
-        );
-
-
-
-        /*
-         * ========================================================
-         * PAYMENT 2
-         * ========================================================
-         */
-
-        Double payment2 = 50.0;
-
-        System.out.println(
-                "\nPayment Amount: "
-                        + payment2
-        );
-
-        System.out.println(
-                "Valid Payment: "
-                        + isValidPayment.test(payment2)
-        );
+        System.out.println(isEven.test(10));
+        System.out.println(isEven.test(7));
     }
 }

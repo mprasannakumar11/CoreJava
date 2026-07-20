@@ -16,9 +16,9 @@ class UnnamedVariableExample {
          * Loop variable not needed.
          */
 
-        for (int _ = 0; _ < 3; _++) {
+        /*for (int _ = 0; _ < 3; _++) {
 
             System.out.println("Processing Payment...");
-        }
+        }*/
     }
 }

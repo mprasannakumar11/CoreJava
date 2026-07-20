@@ -127,5 +127,6 @@ public class Fundamental {
             }
             System.out.println();
         }
+
     }
 }
